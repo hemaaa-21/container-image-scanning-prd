@@ -1,0 +1,28 @@
+{
+  "frameworkName": "NSA",
+  "summary": {
+    "totalControls": 25,
+    "passed": 18,
+    "failed": 7
+  },
+  "controls": [
+    {
+      "controlID": "C-0012",
+      "name": "Kubernetes API Server is configured securely",
+      "status": "failed",
+      "description": "Ensure the API server has proper RBAC settings and encryption enabled."
+    },
+    {
+      "controlID": "C-0023",
+      "name": "RBAC is enabled",
+      "status": "passed",
+      "description": "Role-Based Access Control is enabled and configured correctly."
+    },
+    {
+      "controlID": "C-0051",
+      "name": "Secrets are encrypted at rest",
+      "status": "failed",
+      "description": "Secrets should be encrypted using a strong encryption provider."
+    }
+  ]
+}
