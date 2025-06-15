@@ -1,1 +1,1 @@
-# container-image-scanning-prd
+# container-image-scanning-project
